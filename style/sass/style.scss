@@ -1,0 +1,55 @@
+@use 'navBar.scss';
+
+@use 'index.scss';
+
+@use 'formulaires';
+
+@use 'piedDePage';
+
+@use 'programmation';
+
+@use 'panier';
+
+@use 'footer';
+
+@import 'variables';
+
+@import 'fonts';  
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  margin-top: 0;
+  padding-top: 0;
+  background-color: $dark;
+}
+
+h2, h4 {
+  color: $red;
+}
+
+p {
+  color: $beige;
+}
+
+h1, h5, p {
+  color: $red;
+}
+
+
+
+
+
+ 
+

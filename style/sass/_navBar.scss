@@ -1,0 +1,28 @@
+@import 'variables';
+
+.navbar {
+    padding-bottom: 0%;
+    .navbar-nav {
+      .nav-link { 
+        font-size: 18px;
+        font-weight: bolder;
+        color: $red;
+        text-transform: uppercase;
+        &:hover{
+          color: $white; 
+          .btn btn-danger:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar__logo {
+    width: 100px; 
+    height: 100px; 
+    &:hover {
+      border-color: #DC2626;
+      border-width: 2px;
+    }
+}

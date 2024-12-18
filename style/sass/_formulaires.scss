@@ -1,0 +1,58 @@
+@import 'variables';
+
+.btn--color {
+    background-color: $red;
+    color: $beige;
+    &:hover {
+      background-color: $beige;
+      color: $red;
+    }
+  }
+  
+  .btn--color2 {
+    background-color: $beige;
+    color:  $red;
+    border-color: $red;
+    border-width: 2px;
+    &:hover {
+      background-color: $red;
+      color: $beige;
+    }
+  }
+  
+  .form__input--color:hover {
+    border-color: $red;
+    border-width: 3px;
+    &:focus {
+      border-color: $red; 
+      box-shadow: 0 0 8px $red; 
+    } 
+  }
+  
+  .form-check-input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: 2px solid $red; 
+    background-color: $white;
+    &:checked {
+      background-color: $red; 
+      border-color: $red; 
+    }
+  }
+
+  .form-label, .form-check-label {
+    color: $beige;
+  }
+
+  a.form-label {
+    color: $beige;
+    font-size: inherit;
+    font-weight: normal; 
+    text-decoration: none;
+  }
+
+  a.form-label:hover {
+   color: $red;
+   text-decoration: underline;
+  }
