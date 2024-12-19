@@ -2,7 +2,10 @@
   "dependencies": {
     "bootstrap": "^5.3.3"
   },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  },
   "scripts": {
-    "build-scss": "sass style/sass:style/css"
+    "build-scss": "npx sass style/sass:style/css"
   }
 }
